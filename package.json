@@ -1,0 +1,23 @@
+{
+  "name": "neural-network-text-contrast",
+  "version": "0.1.0",
+  "author": "Mathias Schaeffner",
+  "license": "MIT",
+  "homepage": "https://mschaeffner.github.io/neural-network-text-contrast",
+  "repository": "https://github.com/mschaeffner/neural-network-text-contrast",
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "react": "^16.4.1",
+    "react-color": "^2.14.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
